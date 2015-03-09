@@ -27,6 +27,12 @@ namespace _2015MVC.Controllers
             return View();
         }
 
+        public ActionResult KunYao()
+        {
+            ViewBag.Message = "This is a testing page. ";
+            return View();
+        }
+
 
     }
 }
