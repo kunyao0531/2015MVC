@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ShowPin.MvcPaging</id>
+    <version>1.0.2.0</version>
+    <title>ShowPin.MvcPaging</title>
+    <authors>Vin</authors>
+    <owners>Vin</owners>
+    <licenseUrl>http://license_url_here_or_delete_this_line/</licenseUrl>
+    <projectUrl>https://git.oschina.net/vin_c/ASP.NET-MVC-Paging-Simple</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET MVC 分页</description>
+    <releaseNotes>�Ż���ҳ�㷨���Ż�ҳ�������㷨</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>ASP.NET MVC Paging Pager</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc.zh-Hans" version="5.2.2" />
+      <dependency id="Microsoft.AspNet.Razor.zh-Hans" version="3.2.2" />
+      <dependency id="Microsoft.AspNet.WebPages.zh-Hans" version="3.2.2" />
+    </dependencies>
+  </metadata>
+</package>
