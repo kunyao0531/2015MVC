@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CoreLibrary;
 
 namespace _2015MVC.Controllers
 {
@@ -25,9 +26,11 @@ namespace _2015MVC.Controllers
             return View();
         }
 
-        public ActionResult KunYao()
+        public ActionResult KunYao(int? n1, int? n2)
         {
-            ViewBag.Message = "This is a testing page. ";
+            BLL BL = new BLL();
+            int? result = BL.Cal(n1,n2);
+            ViewBag.Message = result.ToString();
             return View();
         }
 
