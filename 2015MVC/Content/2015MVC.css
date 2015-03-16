@@ -9,6 +9,21 @@
     width: 100%;
 }
 
+    .pageContain .TopNav {
+        display:table-cell;
+        width:100%;
+        min-height:80px;
+        background-color:#808080;
+        float:left;
+    }
+
+     .pageContain .TopNav .LogoArea{
+        width:240px;
+        background-color:#aeaeae;
+        background-color: #947A6D;
+        padding-left:15px;
+    }
+
     .pageContain .Menu {
         display: table-cell;
         width: 240px;
@@ -16,6 +31,7 @@
         vertical-align: top;
         background-color: #947A6D;
         padding: 10px;
+        float:left;
     }
 
     .pageContain .MainContent {
